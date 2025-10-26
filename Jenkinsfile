@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGENAME = 'joepetraa/Mobile-app'
+    IMAGENAME = 'joepetraa/mobile-app'
     REGISTRY = 'https://index.docker.io/v1/'
     REGISTRYCREDENTIALS = 'dockerhub-credentials'
   }
